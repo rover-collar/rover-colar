@@ -21,6 +21,7 @@
 		F621CC2418AFD72A00F5C48F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F621CC0618AFD72900F5C48F /* UIKit.framework */; };
 		F621CC2C18AFD72A00F5C48F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F621CC2A18AFD72A00F5C48F /* InfoPlist.strings */; };
 		F621CC2E18AFD72A00F5C48F /* mapitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F621CC2D18AFD72A00F5C48F /* mapitTests.m */; };
+		F621CC3818AFD73400F5C48F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F621CC3718AFD73400F5C48F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F621CC2918AFD72A00F5C48F /* mapitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapitTests-Info.plist"; sourceTree = "<group>"; };
 		F621CC2B18AFD72A00F5C48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F621CC2D18AFD72A00F5C48F /* mapitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapitTests.m; sourceTree = "<group>"; };
+		F621CC3718AFD73400F5C48F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F621CC3818AFD73400F5C48F /* MapKit.framework in Frameworks */,
 				F621CC0518AFD72900F5C48F /* CoreGraphics.framework in Frameworks */,
 				F621CC0718AFD72900F5C48F /* UIKit.framework in Frameworks */,
 				F621CC0318AFD72900F5C48F /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F621CC0118AFD72900F5C48F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F621CC3718AFD73400F5C48F /* MapKit.framework */,
 				F621CC0218AFD72900F5C48F /* Foundation.framework */,
 				F621CC0418AFD72900F5C48F /* CoreGraphics.framework */,
 				F621CC0618AFD72900F5C48F /* UIKit.framework */,
